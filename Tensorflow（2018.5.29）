@@ -1,5 +1,9 @@
-# Tensorflow（2018.5.29）  
-## Tensorflow基本概念
-啊
-## ddd
-** sss **
+Tensorflow（2018.5.29）  
+
+tensorflow基本概念
+图（graphs）表示计算任务，图中的节点成为op（operation），在会话（Session）或者上下文（context）中执行图
+tensor表示数据，为n维的数组或列表，op可以获取tensor
+变量（Variable）维护状态
+feed、fetch为任意的操作赋值或者从中获取数据
+
+
